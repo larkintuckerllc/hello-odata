@@ -4,6 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
+    "postinstall": "sh scripts/postinstall.sh",
     "build-ts": "tsc",
     "start": "npm run serve",
     "serve": "node dist/server.js",
